@@ -86,7 +86,7 @@ h1{
  .b_radius_60{
   border-radius:60% ;
   -moz-border-radius: 60%;
-  -w: 60%;
+  -webkit-border-radius: ;: 60%;
 }
  .b_radius_30{
   border-radius:30px ;
