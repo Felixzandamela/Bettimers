@@ -17,4 +17,4 @@ export const packages = [
     "prefix":["Ano","Year"],
     "discount":46
   }
-  ]
+  ];
