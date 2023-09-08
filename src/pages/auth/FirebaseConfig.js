@@ -30,7 +30,7 @@ export function sendRequestResetEmail(email){
 }
 
 export function logOut(){
-  return auth.signOut();
+  return signOut(auth);
 }
 export function useAuth(){
   const [currentUser, setCurrentUser] = React. useState();
