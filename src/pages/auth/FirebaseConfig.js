@@ -47,4 +47,3 @@ export function useAuth(){
 
 export const dbUsers = app.database().ref('/datas/users');
 export const dbPackages = app.database().ref('/datas/packages');
-
