@@ -35,7 +35,7 @@ export function logOut(){
 export function useAuth(){
   const [currentUser, setCurrentUser] = React. useState();
   useEffect(() =>{
-    const isAuthticated = auth.onAuthStateChanged ( user => {
+    const isAuthticated = auth.onAuthStateChanged (auth, user => {
       setCurrentUser(user);
       let a = user ? user.uid : "";
       localStorage.setItem("isAuthenticated",a );
