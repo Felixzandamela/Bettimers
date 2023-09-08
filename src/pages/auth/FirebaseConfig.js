@@ -20,7 +20,7 @@ const app = initializeApp(firebaseConfig);
 
 const auth = getAuth()
 export function signUp(email, password){
-  return auth.createUserWithEmailAndPassword(auth, email, password);
+  return createUserWithEmailAndPassword(auth, email, password);
 }
 export function signIn(email,password){
   return auth.signInWithEmailAndPassword(email,password);
