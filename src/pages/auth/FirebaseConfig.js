@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import { initializeApp } from "firebase";
-//import { getAuth,createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { getAuth,createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 
 
 const firebaseConfig = {
