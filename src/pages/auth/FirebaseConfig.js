@@ -33,7 +33,7 @@ export function logOut(){
   return signOut(auth);
 }
 export function useAuth(){
-  const [currentUser, setCurrentUser] = React. useState();
+  const [currentUser, setCurrentUser] = useState();
   useEffect(() =>{
     const isAuthticated = onAuthStateChanged (auth, user => {
       setCurrentUser(user);
