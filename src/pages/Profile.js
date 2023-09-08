@@ -1,7 +1,7 @@
 import React,{useState, useEffect,useRef} from "react";
 import {Link,useNavigate} from "react-router-dom";
 import Cropper from 'cropperjs';
-import "cropper.css";
+/*import "cropper.css";*/
 import {texts} from "./texts/Texts";
 import {useAuth,logOut,dbUsers} from './auth/FirebaseConfig';
 import {Avatar, MinLoder,Copy,formatDate, Toast, Exclamation} from "./Utils";
