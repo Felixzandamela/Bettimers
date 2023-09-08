@@ -23,7 +23,7 @@ export function signUp(email, password){
   return createUserWithEmailAndPassword(auth, email, password);
 }
 export function signIn(email,password){
-  return auth.signInWithEmailAndPassword(email,password);
+  return signInWithEmailAndPassword(auth,email,password);
 }
 export function sendRequestResetEmail(email){
   return auth.sendPasswordResetEmail(email);
