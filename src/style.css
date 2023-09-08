@@ -91,7 +91,7 @@ h1{
  .b_radius_30{
   border-radius:30px ;
   -moz-border-radius: 30px;
-  -webkit-border-radius: ;-border-radius: 30px;
+  -webkit-border-radius: 30px;
 }
 
 .a_aside_items .a_btn, .a_aside_item,  .b_radius_8{
