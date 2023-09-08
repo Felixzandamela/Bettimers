@@ -2,7 +2,6 @@ import React,{useState,useEffect} from "react";
 import {Link,useNavigate} from "react-router-dom";
 import {texts} from "./texts/Texts";
 import {MinLoder,Loader,formatDate} from "./Utils";
-//import "./admin.css";
 import {useAuth,dbUsers,logOut} from './auth/FirebaseConfig';
 
 const minutesMatch = ["02","04", "06","07","09","11", "13","14", "17", "21","24","25", "28", "30", "31","33", "34","36", "37", "39", "43", "46", "47","49", "50", "51","53","54", "56", "59"];
