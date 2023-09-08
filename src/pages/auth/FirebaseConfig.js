@@ -26,7 +26,7 @@ export function signIn(email,password){
   return signInWithEmailAndPassword(auth,email,password);
 }
 export function sendRequestResetEmail(email){
-  return sendPasswordResetEmail(auemail);
+  return sendPasswordResetEmail(auth,email);
 }
 
 export function logOut(){
