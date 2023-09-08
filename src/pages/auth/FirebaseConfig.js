@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-//import { initializeApp } from "firebase";
+import { initializeApp } from "firebase";
 //import { getAuth,createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 
 
