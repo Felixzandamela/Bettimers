@@ -19,6 +19,7 @@ const App = ()=>{
   const [lang, setLang] = useState(getLang());
   return(
     <main>
+    <div class="flex_c_c">Help</div>
       <BrowserRouter>
         <Routes>
           <Route  path="/" element={<Layout onChangeLanguage={(lang)=>setLang(lang)}/>}>
