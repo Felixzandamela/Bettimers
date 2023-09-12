@@ -30,7 +30,7 @@ const App = ()=>{
             <Route path="cabinet" element={<CheckAuth><Cabinet lang={lang}/></CheckAuth>}/>
             <Route path="profile" element={<CheckAuth><Profile lang={lang}/></CheckAuth>}/>
             <Route path="/packages" element={<CheckAuth><Packages lang={lang}/></CheckAuth>}/>
-            
+             <Route path="*" element={<Page404/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
