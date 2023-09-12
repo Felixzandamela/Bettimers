@@ -174,7 +174,7 @@ export const Toast = ({props, onClear}) => {
 }
 
 export const Copy = ({lang,value}) =>{
-  const [error, setError] = React.useState(null);
+  const [error, setError] = useState(null);
   if(!value){return false}
   function copyValue() {
     var range=document.createRange();
