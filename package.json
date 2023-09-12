@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "cropperjs":"^1.6.0",
-    "firebase":"^9.8.2",
+    "firebase":"9.6.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom":"^6.15.0"
