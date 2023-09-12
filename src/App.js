@@ -107,3 +107,8 @@ const Layout = ({onChangeLanguage}) => {
 export default App;
 
 
+const Page404 = ()=>{
+  return (
+    <div className="flex_c_c"> 404 Error </div>
+  )
+}
