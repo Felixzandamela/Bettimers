@@ -158,7 +158,7 @@ export const authErros = [
 ];// firebase errors fallback
 
 export const Toast = ({props, onClear}) => {
-  if(!props){return null}
+  
   useEffect(()=>{
     if(props){
       setTimeout(()=>{
@@ -166,6 +166,8 @@ export const Toast = ({props, onClear}) => {
       },6000);
     }
   },[props]);
+  
+  if(!props){return null}
   return(
     <div className="box_toast flex_c_c">
       <div className="toast b_radius_3">{props}</div>
