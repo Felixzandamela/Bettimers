@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react";
 import "./style.css";
-//import "./admin.css";
 import {useAuth,dbUsers} from './pages/auth/FirebaseConfig';
 import {BrowserRouter,Routes,Route,useNavigate, useLocation,Outlet,Redirect, Link} from "react-router-dom";
 import {getLang, Avatar} from "./pages/Utils";
