@@ -10,11 +10,11 @@
 
 body{
   background: #262a38;
+ 
   scroll-behavior:smooth;
   margin:0;
   padding:0;
   line-height:1.6;
-  color:#fff;
   font-family:Tahoma,Sans-Serif;
   user-select: none;
 }
