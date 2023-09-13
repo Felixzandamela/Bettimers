@@ -158,7 +158,6 @@ export const authErros = [
 ];// firebase errors fallback
 
 export const Toast = ({props, onClear}) => {
-  
   useEffect(()=>{
     if(props){
       setTimeout(()=>{
