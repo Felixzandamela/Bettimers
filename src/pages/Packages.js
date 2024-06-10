@@ -21,8 +21,8 @@ const Packages = ({lang}) =>{
   return(
     <section className="pg_10 sec_packages">
       <div className="pg_10 package_title">{texts.packagesTitle[lang]}</div>
-      {packages && packages.map(p=>( 
-        <div key={p.name} className="wrap_packs">
+      {packages && packages.map(p=>(
+      <div key={p.name} className="wrap_packs">
           <input onChange={handleChange} checked={value === p.name} className="input_radio" name="package" value={p.name} id={p.name} type="radio"/>
           <label htmlFor={p.name}>
             <div  className="card_packs flex_b_c">
